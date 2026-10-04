@@ -44,5 +44,3 @@ spec:
                   name: app-secrets
                   key: DATABASE_URL
                   
-      imagePullSecrets:
-      - name: ghcr-secret

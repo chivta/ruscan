@@ -19,8 +19,6 @@ spec:
           labels:
             app: scraper
         spec:      
-          imagePullSecrets:
-          - name: ghcr-secret
           containers:
             - name: scraper
               image: ghcr.io/chivta/ruscan/scraper:placeholder
